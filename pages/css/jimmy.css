@@ -43,3 +43,47 @@
 	color: white;
 	gap: 2rem;
   }
+
+  .content{
+	display: grid;
+	grid-gap: 20px;
+	margin-top: 20px;
+	grid-template-columns: repeat(5, 2fr);
+	grid-template-rows: auto;
+	background-color: red;
+  }
+
+  .content_animal{
+	display: grid;
+	grid-template-columns: repeat(5, 2fr);
+	grid-template-rows: 30rem 5rem 10rem;
+  }
+  .content_animal>img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	grid-row: 1 / 3;
+	grid-column: 2 / 5;
+  }
+  .content_animal>p{
+  }
+  #zebra{
+	grid-column: span 5;
+	grid-row: span 6;
+	background-color: orange;
+  }
+  #lion{
+	grid-column: span 5;
+	grid-row: span 6;
+	background-color: green;
+  }
+  #giraffe{
+	grid-column: span 5;
+	grid-row: span 6;
+	background-color: blue;
+  }
+  #elephant{
+	grid-column: span 5;
+	grid-row: span 6;
+	background-color: purple;
+  }
