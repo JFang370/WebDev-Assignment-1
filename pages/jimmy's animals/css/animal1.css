@@ -43,22 +43,22 @@
 	color: white;
 	gap: 2rem;
   }
-
+  .animal_heading{
+	font-size: 50px;
+	background-color: #3e72ab;
+  }
   .content{
 	column-gap: 100px;
-	margin: 50px;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	grid-template-rows: repeat(4, 200px);
-	background-color: orange;
+	background-color: #4c4e62;
   }
   .image{
-	margin-top: 70px;
+	margin-top: 20px;
 	grid-row: 1 / span 3;
 	grid-column: 2 / span 4;
-	background-color: blue;
   }
-  
   .image > img{
 	object-fit: cover;
 	width: 100%;
@@ -66,7 +66,6 @@
 
   }
   .about{
-	margin-bottom: 50px;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	grid-template-rows: 20% auto;
@@ -75,16 +74,16 @@
   }
   .about > h2{
 	grid-column: 1 / 11;
-	margin-top: 10px;
-	background-color: #fbdf5a;
+	margin-top: 20px;
+	background-color: #3e72ab;
   }
   .about > p{
-	grid-column: 3 / 9;
-	background-color: white;
+	grid-column: 1 / 11;
+	background-color: rgb(165, 190, 239);
   }
   .facts{
 	display: grid;
-	margin-top: 90px;
+	margin-top: 65px;
   	grid-template-rows: repeat(3, 150px);
   	row-gap: 20px;
 	grid-row: 1 / span 3;
@@ -98,6 +97,7 @@
 	text-align: center;
   }
   p{
+	font-size: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -110,17 +110,16 @@
   	border-bottom-left-radius: 115px;
   }
 
+  .fact{
+	background-color: rgb(202, 216, 245);
+  }
   #fact1{
-	background-color: blanchedalmond;
   }
   #fact2{
-	background-color: aqua;
+	display: grid;
+	grid-template-rows: 20% 25% 25% 25%;
   }
   #fact3{
 	display: grid;
 	grid-template-rows: 20% 25% 25% 25%;
-	background-color: greenyellow;
-  }
-  .fact3 > p{
-	grid-column: 1;
   }
