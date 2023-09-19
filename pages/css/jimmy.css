@@ -46,15 +46,14 @@
 
   .content{
 	display: grid;
-	grid-gap: 20px;
-	margin-top: 20px;
 	grid-template-columns: repeat(5, 2fr);
 	grid-template-rows: auto;
-	background-color: red;
+	background-color: rgb(165, 190, 239);
   }
 
   .content_animal{
 	display: grid;
+	margin-bottom: 20px;
 	grid-template-columns: repeat(5, 2fr);
 	grid-template-rows: 30rem 5rem;
   }
@@ -91,22 +90,19 @@
 	font-size: 20px;
   }
   #zebra{
+	margin-top: 20px;
 	grid-column: span 5;
 	grid-row: span 6;
-	background-color: orange;
   }
   #lion{
 	grid-column: span 5;
 	grid-row: span 6;
-	background-color: green;
   }
   #giraffe{
 	grid-column: span 5;
 	grid-row: span 6;
-	background-color: blue;
   }
   #elephant{
 	grid-column: span 5;
 	grid-row: span 6;
-	background-color: purple;
   }
