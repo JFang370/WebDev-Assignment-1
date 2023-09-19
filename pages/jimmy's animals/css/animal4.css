@@ -78,6 +78,7 @@
 	background-color: #3e72ab;
   }
   .about > p{
+	font-size: 20px;
 	grid-column: 1 / 11;
 	background-color: rgb(165, 190, 239);
   }

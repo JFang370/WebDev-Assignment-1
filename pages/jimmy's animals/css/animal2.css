@@ -78,6 +78,7 @@
 	background-color: #3e72ab;
   }
   .about > p{
+	font-size: 20px;
 	grid-column: 1 / 11;
 	background-color: rgb(165, 190, 239);
   }
@@ -97,7 +98,7 @@
 	text-align: center;
   }
   p{
-	font-size: 20px;
+	font-size: 15px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
