@@ -45,17 +45,55 @@
 
 
   .WelcomeBox{
-    max-width: 600px; /* Set a maximum width for the rectangle */
-    margin: 0 auto; /* Center the rectangle horizontally */
-    padding: 20px; /* Add some padding to your content for spacing */
-    text-align: center; /* Center-align the text */
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center; 
 
     color: black;
     background-color: rgba(255, 221, 153, 0.2);
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px; 
     font-family: Arial, Helvetica, sans-serif;
+  }
 
+  .CardContainer{
+    display: flex;
+  }
 
+  .Card{
+    background: white;
+    width: 300px;
+    height: 500px;
+    margin: 10px auto;
+    border-radius: 15px;
+    
+  }
+  .CardImage{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+  }
+  .Panda{
+    background-image: url('../img/panda.png'); 
 
+  }
+  .Pengu{
+    background-image: url('../img/pengu.png'); 
+  }
+  .Kango{
+    background-image: url('../img/kango.png'); 
+  }
+
+  .Gorilla{
+    background-image: url('../img/gorilla.png'); 
+
+  }
+  
+  .Card a{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
 
   }
