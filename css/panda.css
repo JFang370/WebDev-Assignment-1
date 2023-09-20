@@ -87,4 +87,8 @@ body {
 
 }
 
-
+.animal_heading{
+	opacity: 85%;
+	font-size: 50px;
+	background-color: #3e72ab;
+  }
