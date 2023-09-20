@@ -7,4 +7,4 @@ https://jfang370.github.io/WebDev-Assignment-1/
 ----------
 ### Group Members
 Jimmy Fang | Github Username: JFang370  
-Vincent Yan | Github Username: Vinson12090
+Vinson Yan | Github Username: Vinson12090
