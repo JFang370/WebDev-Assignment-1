@@ -43,3 +43,65 @@ body {
   color: white;
   gap: 2rem;
 }
+.imgcontainer {
+  background-image: url('../img/Safari.png');
+  height: 600px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: relative;
+  width: 100%;
+}
+.text{
+  position: relative; 
+  text-align: center;
+}
+
+.text p {
+  position: absolute; 
+  font-size: 20; 
+  top: 100px; 
+  left: 50%; 
+  text-align: center;
+  transform: translate(-50%, 50%);
+  background-color: rgba(255, 255, 255, 0.4); 
+  padding: 10px; 
+}
+.CardContainer{
+  display: flex;
+  background-image: url('../img/habit.png');
+}
+
+.Card{
+  background: white;
+  width: 350px;
+  height: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  
+}
+.CardImage{
+  height: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.Card a{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+
+}
+.Jimmy{
+  background-image: url('../img/Jim.png'); 
+}
+.Vinson{
+  background-image: url('../img/vin.png'); 
+}
+
+.heading{
+	opacity: 85%;
+	background-color: #3e72ab;
+  }
